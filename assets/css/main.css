@@ -172,7 +172,7 @@ h6 {
 .header .btn-getstarted:focus {
   color: var(--contrast-color);
   background: var(--accent-color);
-  font-size: 14px;
+  font-size: 18px;
   padding: 8px 26px;
   margin: 0;
   border-radius: 4px;
@@ -194,6 +194,7 @@ h6 {
     order: 2;
     margin: 0 15px 0 0;
     padding: 6px 20px;
+    font-size: 16px;
   }
 
   .header .navmenu {
@@ -236,7 +237,7 @@ h6 {
   .navmenu a:focus {
     color: var(--nav-color);
     padding: 18px 15px;
-    font-size: 15px;
+    font-size: 18px;
     font-family: var(--nav-font);
     font-weight: 600;
     display: flex;
