@@ -724,6 +724,12 @@ section,
     scroll-margin-top: 64px;
   }
 }
+@media only screen and (max-width: 991px){
+  section, .section
+  {
+    padding: 30px 0;
+  }
+}
 
 /*--------------------------------------------------------------
 # Global Section Titles
@@ -1017,6 +1023,62 @@ background:
   border: 1px solid #fff !important;
   color: #fff !important;
 }
+.btn-outline-light {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  border-radius: 5px;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-outline-light i {
+  font-size: 18px;
+  margin-left: 5px;
+  line-height: 0;
+  transition: 0.3s;
+}
+
+.btn-outline-light:hover {
+
+  padding-right: 19px;
+}
+
+.btn-outline-light:hover i {
+  margin-left: 10px;
+}
+
+.btn-dark {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  border-radius: 5px;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-dark i {
+  font-size: 18px;
+  margin-left: 5px;
+  line-height: 0;
+  transition: 0.3s;
+}
+
+.btn-dark:hover {
+
+  padding-right: 19px;
+}
+
+.btn-dark:hover i {
+  margin-left: 10px;
+}
+
 
 /*--------------------------------------------------------------
 # Call To Action 2 Section
@@ -1068,7 +1130,7 @@ background:
 .call-to-action-2 .cta-features .feature-item {
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .call-to-action-2 .cta-features .feature-item i {
@@ -1082,7 +1144,7 @@ background:
 }
 
 
-.call-to-action-2 .cta-action .btn-primary {
+.btn-primary {
   background: var(--accent-color);
   color: var(--contrast-color);
   font-family: var(--heading-font);
@@ -1097,19 +1159,19 @@ background:
   justify-content: center;
 }
 
-.call-to-action-2 .cta-action .btn-primary i {
+.btn-primary i {
   font-size: 18px;
   margin-left: 5px;
   line-height: 0;
   transition: 0.3s;
 }
 
-.call-to-action-2 .cta-action .btn-primary:hover {
+.btn-primary:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
   padding-right: 19px;
 }
 
-.call-to-action-2 .cta-action .btn-primary:hover i {
+.btn-primary:hover i {
   margin-left: 10px;
 }
 
@@ -1466,8 +1528,32 @@ padding-bottom: 0;
 
 
 /*--------------------------------------------------------------
-# Starter Section Section
+# Our Misiion section css
 --------------------------------------------------------------*/
-/* .starter-section {
-  
-} */
+.mission-section
+{
+  background-color: #112F82;
+}
+.mission-section h2{
+  color: #fff;
+}
+.mission-section p{
+  color: #fff;
+  font-size: 24px;
+  max-width: 780px;
+  margin: auto;
+}
+
+.offer-section.approach-section .info-box
+{
+      border-right: 1px solid #babadc;
+}
+.offer-section.approach-section .info-box:last-child
+{
+  border-right: none;
+}
+@Media only screen and (max-width:991px){
+  .offer-section.approach-section .info-box:nth-child(2){
+    border-right: none;
+  }
+}
