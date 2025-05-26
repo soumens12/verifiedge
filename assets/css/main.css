@@ -21,7 +21,7 @@
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #212529; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #32353a; /* Color for headings, subheadings and title throughout the website */
+  --heading-color: #000000; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #4d4dff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -742,7 +742,7 @@ section,
 
 .section-title h2 {
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -1105,7 +1105,7 @@ background:
 }
 
 .call-to-action-2 .cta-content h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
 }
@@ -1425,6 +1425,46 @@ padding-bottom: 0;
       }
 
     }
+
+/*--------------------------------------------------------------
+# service page css
+--------------------------------------------------------------*/
+.inner-service-section h2{
+  margin-bottom: 60px;
+}
+  .inner-service-section h3{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .inner-service-section h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  .inner-service-section h4, .inner-service-section p{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bg-primary
+  {
+    background-color: #112F82 !important;
+    border: 1px solid #112F82;
+  }
+  .choose-wrap
+  {
+    position: relative;
+  }
+  .choose-wrap .choose-icon i
+  {
+      font-size: 45px;
+    background: #4d4dff;
+    color: #fff;
+  }
+  .choose-wrap h3{
+    font-weight: bold;
+    font-size: 30px;
+  }
 
 /*--------------------------------------------------------------
 # Contact Section
