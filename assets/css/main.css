@@ -1469,47 +1469,28 @@ padding-bottom: 0;
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
-.contact .info-card {
-  background-color: var(--surface-color);
-  padding: 30px;
+.contact{
+  padding-top: 140px;
+}
+.contact .contact-info {
+  background-color: var(--accent-color);
+  padding: 100px 50px;
   text-align: center;
   height: 100%;
   border-radius: 10px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   transition: all 0.3s ease-in-out;
+  color: #fff;
 }
-
-.contact .info-card:hover {
-  transform: translateY(-5px);
+.contact .contact-info h1{
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 40px;
 }
-
-.contact .info-card .icon-box {
-  width: 56px;
-  height: 56px;
-  margin: 0 auto 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background-color: color-mix(in srgb, var(--accent-color), transparent 92%);
-}
-
-.contact .info-card .icon-box i {
-  font-size: 24px;
-  color: var(--accent-color);
-}
-
-.contact .info-card h3 {
-  font-size: 20px;
+.contact .contact-info h2{
+  color: #fff;
   font-weight: 600;
-  margin-bottom: 15px;
-}
-
-.contact .info-card p {
-  margin: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  font-size: 15px;
-  line-height: 1.6;
+  margin-bottom: 30px;
 }
 
 .contact .form-wrapper .input-group .input-group-text {
@@ -1565,7 +1546,16 @@ padding-bottom: 0;
 .contact .form-wrapper button:hover {
   background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
-
+.contact-form-title
+{
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.contact .form-wrapper label{
+  font-weight: 600;
+  margin-bottom: 10px;
+}
 
 /*--------------------------------------------------------------
 # Our Misiion section css
